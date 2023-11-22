@@ -1,6 +1,41 @@
-/* CSS Reset */
+/* ?CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* ?GENERALS */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.border {
+    border: 1px dotted black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* ?UTILS */
+
+.bg-red {
+    background-color: red;
+    height: 100vh;
+}
+
+h1.color-yellow {
+    color: yellow;
+}
+
+h1.color-green {
+    color: green;
 }
