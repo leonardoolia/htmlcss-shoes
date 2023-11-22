@@ -25,12 +25,29 @@ h1 {
     font-size: 3rem;
 }
 
+.bg {
+    height: 100vh;
+    position: relative;
+}
+
+
 /* ?UTILS */
+
 
 .bg-red {
     background-color: red;
-    height: 100vh;
+
 }
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+
 
 h1.color-yellow {
     color: yellow;
